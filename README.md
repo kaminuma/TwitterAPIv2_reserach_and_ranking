@@ -1,3 +1,6 @@
+<h1><開発中></h1>
+今後ソースコードをTwitterAIP入力、各検索項目入力、メインファイルと分けます。
+<br>
 <h1>TwitterAPI v2_reserach_and_ranking</h1>
  APIv2で特定のワードを100抽出した後、比べたいワードを複数指定しランキング形式で出力します<br>
 <br>
