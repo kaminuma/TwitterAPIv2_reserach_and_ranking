@@ -48,10 +48,10 @@ def job():
     mons_list = [dami, naruga, jinouga, tiga, reia, tama, baru, rajan]
     
     #表示させるリストを別途定めた
-    mos_list_hyoji = [naruga, jinouga, tiga, reia, tama, baru, rajan]
+    mons_list_hyoji = [naruga, jinouga, tiga, reia, tama, baru, rajan]
 
 
-    print(mos_list_hyoji)
+    print(mons_list_hyoji)
 
     #csvに'mons.csv'を置いているので読み込みと取得した最新の値を追記
     with open('mons.csv', 'a',newline='') as f_object:
