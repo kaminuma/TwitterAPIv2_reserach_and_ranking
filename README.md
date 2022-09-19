@@ -1,0 +1,2 @@
+# TwitterAPIv2_reserach_and_ranking
+ APIv2で特定のワードを100抽出した後、比べたいワードを複数指定しランキング形式で出力します
