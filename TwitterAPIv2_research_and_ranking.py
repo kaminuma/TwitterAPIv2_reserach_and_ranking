@@ -26,7 +26,7 @@ def job():
         bearer_token=bearer_token )
         
     #最新のツイートを取得
-    tweets = client.search_recent_tweets(query='モンハン',max_results=100)
+    tweets = client.search_recent_tweets(query='#MHrise',max_results=100)
     
 
     #変数に検索ワード内の調べたいワードを設定
