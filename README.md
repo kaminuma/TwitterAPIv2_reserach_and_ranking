@@ -1,7 +1,7 @@
 <h1>#TwitterAPIv2_reserach_and_ranking</h1>
  APIv2で特定のワードを100抽出した後、比べたいワードを複数指定しランキング形式で出力します<br>
 <br>
-<h2>手順(内容はソースコードTwitterAPIv2_reseach_ranking参照）<h2>
+<h2>手順(内容はソースコードTwitterAPIv2_reseach_ranking参照）</h2>
 TwitterAPIv2 tweepyを用いて、<br>
 特定のワードを含む間近100件のツイートを取得後※1<br>
 
