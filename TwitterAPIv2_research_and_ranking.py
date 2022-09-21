@@ -79,10 +79,3 @@ schedule.every(1).minutes.do(job)
 #1分毎に実行する予定文を無限ループさせ、プログラムを動かし続ける
 while True:
     schedule.run_pending()
-<<<<<<< Updated upstream
-    time.sleep(1)
-    #1分毎に実行する予定文を無限ループさせ、プログラムを動かし続ける
-    
-=======
-    time.sleep(1)
->>>>>>> Stashed changes
