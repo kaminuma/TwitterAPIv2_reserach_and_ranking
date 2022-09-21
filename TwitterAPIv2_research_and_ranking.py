@@ -16,7 +16,6 @@ def job():
     #最新のツイートを取得
     tweets = client.search_recent_tweets(query='#MHrise',max_results=100)
 
-
     #変数に検索ワード内の調べたいワードを設定
     # (csv入出力時に0列、0行は見出しになるため変数dami(ダミー)を置いた)
 
@@ -36,22 +35,13 @@ def job():
     get_list = [dami, word1, word2, word3, word4, word5, word6, word7]
     
     #表示させるリストを別途定めた
-<<<<<<< Updated upstream
-    mons_list_hyoji = [naruga, jinouga, tiga, reia, tama, baru, rajan]
+    get_list_hyoji = [word1, word2, word3, word4, word5, word6, word7]
     
     #一回の取得での各ワードの出現率をプリント
     print(mons_list_hyoji)
 
-    #カレントディレクトリに'mons.csv'を置いているので読み込みと取得した最新の値を追記
-    with open('mons.csv', 'a',newline='') as f_object:
-=======
-    get_list_hyoji = [word1, word2, word3, word4, word5, word6, word7]
-
-    print(get_list_hyoji)
-
-    #csvに'mons.csv'を置いているので読み込みと取得した最新の値を追記
+    #カレントディレクトリにcsv、'get_list.csv'を置いているので読み込みと取得した最新の値を追記
     with open('get_list.csv', 'a',newline='') as f_object:
->>>>>>> Stashed changes
         writer_object = writer(f_object)
         writer_object.writerow(get_list)
         f_object.close()
