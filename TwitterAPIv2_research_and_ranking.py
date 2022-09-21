@@ -69,3 +69,4 @@ schedule.every(1).minutes.do(job)
 #1分毎に実行する予定文を無限ループさせ、プログラムを動かし続ける
 while True:
     schedule.run_pending()
+    time.sleep(1)
